@@ -1,9 +1,9 @@
 <link rel="stylesheet" href="assets/css/resume.css">
-
+<div id="resume">
 # Krish Ashish Parik
-
+<div class="contact-info">
 📧 [krishparik918@gmail.com](mailto:krishparik918@gmail.com) | 📱 +91-xxxxxxxxxx | 🔗 [LinkedIn](https://www.linkedin.com/in/krish-parik-a375ab192/) | 💻 [GitHub](https://github.com/Kparik918)
-
+</div>
 
 ## 🎯 Objective
 Aspiring DevSecOps Engineer with expertise in key areas of Linux, Git, networking, and IT security. My hands-on experience with version control and system administration, developed while pursuing my Cybersecurity degree, has prepared me to contribute to building secure and streamlined software development lifecycles.
@@ -44,3 +44,4 @@ Aspiring DevSecOps Engineer with expertise in key areas of Linux, Git, networkin
 - **Tools:** Git, GitHub, GitLab, VS Code  
 - **Networking (Network+):** TCP/IP, OSI, routing/switching basics, VPNs, troubleshooting tools (`ping`, `traceroute`, `nslookup`)  
 - **Domains:** Fundamentals of IT Security, Shell Scripting basics
+</div>
