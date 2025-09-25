@@ -1,6 +1,6 @@
 # Krish Ashish Parik
 
-📧 [krishparik918@gmail.com](mailto:krishparik918@gmail.com) | 📱 +91-6355696254 | 🔗 [LinkedIn](https://www.linkedin.com/in/krish-parik-a375ab192/) | 💻 [GitHub](https://github.com/Kparik918)
+📧 [krishparik918@gmail.com](mailto:krishparik918@gmail.com) | 📱 +91-xxxxxxxxxx | 🔗 [LinkedIn](https://www.linkedin.com/in/krish-parik-a375ab192/) | 💻 [GitHub](https://github.com/Kparik918)
 
 
 ## 🎯 Objective
