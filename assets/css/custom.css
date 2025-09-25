@@ -1,3 +1,11 @@
 .site-header {
-    display: none;
+    display: none; /* hides the top header */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
 }
