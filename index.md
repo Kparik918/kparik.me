@@ -1,5 +1,6 @@
 <link rel="stylesheet" href="assets/css/resume.css">
 <div id="resume">
+  
 # Krish Ashish Parik
 <div class="contact-info">
 📧 [krishparik918@gmail.com](mailto:krishparik918@gmail.com) | 📱 +91-xxxxxxxxxx | 🔗 [LinkedIn](https://www.linkedin.com/in/krish-parik-a375ab192/) | 💻 [GitHub](https://github.com/Kparik918)
