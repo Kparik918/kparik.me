@@ -10,6 +10,17 @@ body {
     max-width: 900px; /* readable on wide screens */
 }
 
+body {
+  background-color: #121212;
+  color: #EAEAEA;
+}
+h1, h2 {
+  color: #4FC3F7;
+}
+a {
+  color: #81D4FA;
+}
+
 /* Headings */
 h1, h2 {
     font-weight: 600;
