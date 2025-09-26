@@ -1,0 +1,107 @@
+/* resume.css - clean, responsive design */
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    font-size: 1rem; /* scalable font */
+    color: #222;
+    margin: 0 auto;
+    padding: 1rem;
+    max-width: 900px; /* readable on wide screens */
+}
+
+/* Headings */
+h1, h2 {
+    font-weight: 600;
+    color: #2c3e50;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+
+#resume h1 {
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+/* Contact Info */
+.contact-info {
+    text-align: center;
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+}
+
+/* Horizontal lines */
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 2rem 0;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1.5rem;
+
+    display: block;
+    overflow-x: auto; /* scrollable on mobile */
+    white-space: nowrap;
+}
+
+th, td {
+    padding: 0.6rem;
+    border: 1px solid #ddd;
+    text-align: left;
+    font-size: 0.95rem;
+}
+
+th {
+    background-color: #f5f5f5;
+    font-weight: 600;
+}
+
+/* Lists */
+ul {
+    margin-left: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+/* Responsive Design */
+
+/* Tablet view */
+@media (max-width: 768px) {
+    body {
+        font-size: 0.95rem;
+    }
+
+    #resume h1 {
+        font-size: 1.9rem;
+    }
+}
+
+/* Mobile view */
+@media (max-width: 480px) {
+    body {
+        font-size: 0.9rem;
+        padding: 0.8rem;
+    }
+
+    #resume h1 {
+        font-size: 1.6rem;
+    }
+
+    .contact-info {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.4rem;
+    }
+
+    table {
+        font-size: 0.85rem;
+    }
+}
