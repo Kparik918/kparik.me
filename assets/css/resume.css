@@ -1,20 +1,21 @@
-/* resume.css - clean, responsive design */
+/* resume.css - dark mode responsive design */
 
+/* Base layout */
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 1.6;
-    font-size: 1rem; /* scalable font */
-    color: #222;
+    font-size: 1rem;
+    background-color: #121212; /* dark background */
+    color: #EAEAEA;            /* light text */
     margin: 0 auto;
     padding: 1rem;
-    max-width: 900px; /* readable on wide screens */
+    max-width: 900px;
 }
-
 
 /* Headings */
 h1, h2 {
     font-weight: 600;
-    color: #2c3e50;
+    color: #4FC3F7; /* accent blue */
     margin-top: 1.5rem;
     margin-bottom: 0.75rem;
 }
@@ -36,10 +37,19 @@ h1, h2 {
     gap: 0.75rem;
 }
 
+.contact-info a {
+    color: #81D4FA; /* link accent */
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
 /* Horizontal lines */
 hr {
     border: none;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #333;
     margin: 2rem 0;
 }
 
@@ -56,13 +66,14 @@ table {
 
 th, td {
     padding: 0.6rem;
-    border: 1px solid #ddd;
+    border: 1px solid #333;
     text-align: left;
     font-size: 0.95rem;
 }
 
 th {
-    background-color: #f5f5f5;
+    background-color: #1E1E1E;
+    color: #4FC3F7; /* headings blue */
     font-weight: 600;
 }
 
@@ -105,15 +116,4 @@ ul {
     table {
         font-size: 0.85rem;
     }
-}
-
-body {
-  background-color: #121212;
-  color: #EAEAEA;
-}
-h1, h2 {
-  color: #4FC3F7;
-}
-a {
-  color: #81D4FA;
 }
